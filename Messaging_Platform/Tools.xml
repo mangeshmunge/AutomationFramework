@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Messaging_Platform_Project">
+
+      <listeners>
+		<listener class-name="com.messaging_platform.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Platform Test">
+		<parameter name="browser" value="chrome" /> 
+		<!--parameter name="browser" value="firefox" /> -->
+		<classes>
+			<class name="com.Tools.testCases.TC_ToolsMenu_001" />
+	
+		</classes>
+
+	</test>
+ 
+</suite>

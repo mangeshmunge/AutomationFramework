@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Messaging_Platform_Project">
+
+      <listeners>
+		<listener class-name="com.messaging_platform.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Platform Test">
+		<parameter name="browser" value="chrome" /> 
+		<!--parameter name="browser" value="firefox" /> -->
+		<classes>
+			<!--class name="com.Campaigns.testCases.TC_LoginPage_001" /> -->
+			<!--  class name="com.Campaigns.testCases.TC_CreateCampaign_002" /> -->
+			<!--  class name="com.Campaigns.testCases.TC_SearchCampaign_003" /> -->
+			<!--  class name="com.Campaigns.testCases.TC_UpdateCampaign_004" /> -->
+			<!-- class name="com.Campaigns.testCases.TC_OptinList_006" /> -->
+			<!--class name="com.Campaigns.testCases.TC_Keywords_007" /> -->
+			<!--class name="com.Campaigns.testCases.TC_AutoResponses_008" /> -->
+			<!--class name="com.Campaigns.testCases.TC_MessageScheduling_009" /> -->
+			<class name="com.Campaigns.testCases.TC_MasterTestCase" /> 
+			<!--class name="com.Campaigns.testCases.TC_MasterTestCase1" /> -->
+			<!--class name="com.Campaigns.testCases.TC_MasterTestCase2" /> -->
+			<!--class name="com.Campaigns.testCases.TC_MasterTestCase3" /> -->
+			<!--class name="com.Campaigns.testCases.TC_MasterTestCase4" /> -->
+
+		</classes>
+
+	</test>
+ 
+</suite> 

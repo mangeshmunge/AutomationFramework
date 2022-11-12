@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Messaging_Platform_Project">
+
+      <listeners>
+		<listener class-name="com.messaging_platform.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="Platform Test">
+		<parameter name="browser" value="chrome" /> 
+		<!--parameter name="browser" value="firefox" /> -->
+		<classes>
+			<!--c
+			lass name="com.MMS_Templates.testCases.TC_CreateMMS_001" /> -->
+			<!--class name="com.MMS_Templates.testCases.TC_MMSTemplateActions_002" /> -->
+			<class name="com.MMS_Templates.testCases.TC_MMSTemplate_MasterTestCase" /> 
+		</classes>
+
+	</test>
+ 
+</suite> 
